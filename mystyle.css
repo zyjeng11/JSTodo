@@ -1,45 +1,50 @@
 body{
 	margin: 0;
+	background-color: #e1e1e1;
 }
 
 .myNavbar{
-  background-color: #03adfc;
+  background-color: #4a90e2;
   padding: 20px;
   text-align: center;
 }
 
 a, span{
-	font-family: system-ui;
+	font-family: system-ui;	
+    text-decoration: none;
 }
 
-a{
+.nav-text{
   text-align: center;
-  padding:15px;
+  padding:15px 40px 19px 40px;
   font-family: system-ui;
+  font-size: 25px;
+  color:#00408b;
 }
 
-a:hover{
+.nav-text:hover{
 	border-bottom-style:solid;
-	border-bottom-color: black;
-	border-bottom-width: 5px;	
+	border-bottom-color: #00408b;
+	border-bottom-width: 4px;	
 	color: white;
 }
 
 .add-task{
 	margin: 50px auto auto auto;
 	width: 60%;
-	background-color: lightgray;
+	background-color: #f2f2f2;
+	border-radius: 8px;
 }
 
 .task-title{
     padding: 20px 10px 20px 30px;
 	border-bottom-style:solid;
-	border-bottom-color: gray;
+	border-bottom-color: #e1e1e1;
 	border-bottom-width: 2px;
 }
 
 .task-title-text{
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .task-content{
@@ -56,6 +61,16 @@ a:hover{
 	margin-right: 15px;
 }
 
+.btn-cancel{
+	padding: 20px 20%;
+	background-color: white;
+}
+
+.btn-addtask{
+	padding: 20px 20%;
+	background-color: #4a90e2;
+}
+
 input[type=checkbox]{
 	padding: 10px;
 	margin-right: 15px;
@@ -68,4 +83,8 @@ input[type=text]{
 
 span{
 	vertical-align: middle;
+}
+
+textarea{
+	width:90%;
 }

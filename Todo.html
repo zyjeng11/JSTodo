@@ -11,9 +11,9 @@
 <body>
 
 <div class='myNavbar'>
-	<a>My Tasks</a>
-	<a>In Progress</a>
-	<a>Completed</a>
+	<a class="nav-text"><b>My Tasks</b></a>
+	<a class="nav-text"><b>In Progress</b></a>
+	<a class="nav-text"><b>Completed</b></a>
 </div>
 
 <div class='add-task'>
@@ -43,11 +43,12 @@
 			<span><b>Comment</b></span>
 		</div>
 		<div class="task-content-val">
-			<input type='text' placeholder="Type your memo here...">
+			<textarea rows = "5" cols = "60" name = "description" placeholder="Type your memo here..."></textarea><br>
 		</div>
 	</div>
-	<div>
-		
+	<div class='task-button'>
+		<span class="btn-cancel">Cancel</span>
+		<span class="btn-addtask">Add Task</span>
 	</div>
 </div>
 
